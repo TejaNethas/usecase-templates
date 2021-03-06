@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>HJob Application</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/fontawesome.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="./local-script.js"></script>
+   </head>
+   <body>
+      <header class="px-5">
+         <nav class="navbar navbar-expand-lg py-3 mp-nav fixed-top">
+            <a class="navbar-brand mp-text-primary font-weight-bold" title="HJob Application" href="index.html">
+            Happy tech jobs Application
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navb">
+               <ul class="navbar-nav m-auto">
+                  <li class="nav-item mx-4">
+                     <a class="nav-link mp-text-primary" href="index.html">Jobs</a>
+                  </li>
+                  <li class="nav-item mx-4">
+                     <a class="nav-link mp-text-primary" href="application-status.html">Application Status</a>
+                  </li>
+                  <li class="nav-item mx-4">
+                     <a class="nav-link mp-text-primary" href="my-profile.html">My Profile</a>
+                  </li>
+                  <li class="nav-item mx-4">
+                     <a class="nav-link mp-text-primary" href="sign-in.html">Sign In</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <!-- section one start -->
+      <section class="position-relative">
+         <div class="container-fluid mp-sec-bg">
+            <div class="row">
+               <div class="col-12">
+                  <div class="section-two-bg">
+                     <div class="text-group py-5 text-center">
+                        <div class="h1">
+                           Online Happy Tech Job Application Recruitment System<span class="mp-text-secondary">.</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- section one end -->
+      <section class="position-relative py-2 my-2">
+         <div class="container-fluid">
+            <div class="row py-3">
+               <div class="col-lg-8 col-sm-12">
+                  <div class="apply-job-tile position-relative">
+                     <div class="op-job-title">Adv. Software Engineer</div>
+                     <div class="op-job-companyName">Info Software solutions pvt ltd</div>
+                     <div class="op-job-details">
+                        <div class="op-job-expr pd-around"><span><i class="fa fa-briefcase" aria-hidden="true"></i></span> 5-7 Yrs</div>
+                        <div class="op-job-salary pd-around"><span><i class="fa fa-usd" aria-hidden="true"></i></span> Not Disclosed</div>
+                        <div class="op-job-location pd-around"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Bradford</div>
+                     </div>
+                     <div class="op-job-tech">
+                        <div class="pr-2"><i class="fa fa-pencil" aria-hidden="true"></i></div>
+                        <div class="op-job-technologies">springboot,css,jsp,json,html,bootstrap,angularjs,javascript,jquery</div>
+                     </div>
+                     <div class="op-job-tech">
+                        <div class="pr-2"><i class="fa fa-file-text" aria-hidden="true"></i></div>
+                        <div class="op-job-tech-desc">We are looking for a Front-End Web Developer who is motivated to combine the art of design with the art of programming. Responsibilities will include translation of the UI/UX design wireframes to actual code that will produce visual elements of the application. You will work with the UI/UX designer and bridge the gap between graphical design and technical implementation, taking an active role on both sides and defining how the application looks as well as how it works.</div>
+                     </div>
+                     <div class="op-job-tech">
+                        <div class="op-job-tech-desc">
+                           <ul class="px-3 m-0">
+                              <li>Solid knowledge of Angular JS / Angular 2+ and it's deployment.</li>
+                              <li>Strong knowledge and coding experience in JavaScript.</li>
+                              <li>Strong knowledge in UI frameworks HTML5, CSS/SCSS, Bootstrap</li>
+                              <li>Good to have hands on experience in working on Angular Services, Modules and Routing.</li>
+                              <li>Experience with JavaScript frameworks like NodeJS, AngularJS, TypeScript, Web Components</li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="apply-job-btn-block my-3">
+                        <button class="btn btn-primary" id="myBtn">Apply</button>
+                     </div>
+                                       <!--- alert notification after successfull job apply-->
+                     <div class="alert alert-success alert-dismissible">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>Success!</strong> Your job is successfully applied. All the Very Best!....
+                     </div>
+
+                       <div class="alert alert-warning alert-dismissible">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>Warning!</strong> Your have already applied this job.
+                     </div>
+
+                       <div class="alert alert-danger alert-dismissible">
+                           <button type="button" class="close" data-dismiss="alert">&times;</button>
+                           <strong>Danger!</strong> Somthing went wrong, Please try again after some time.
+                        </div>
+                     <!--- alert notification after successfull job apply-->
+               </div>
+            </div>
+         </div>
+         </div>
+      </section>
+      <!-- Footer start from here -->
+      <section>
+         <footer class="text-center">
+            <div class="footer_below">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <p> Copyright © Website 2021.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </section>
+      <!-- Footer start from here -->
+
+   </body>
+</html>
